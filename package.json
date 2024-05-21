@@ -1,0 +1,35 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dianahuzina/npm-package.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "diana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dianahuzina/npm-package/issues"
+  },
+  "homepage": "https://github.com/dianahuzina/npm-package#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@eslint/js": "^9.3.0",
+    "eslint": "^9.3.0",
+    "globals": "^15.3.0"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1"
+  }
+}
